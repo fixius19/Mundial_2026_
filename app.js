@@ -271,8 +271,7 @@ function syncAutoThirdPlace() {
   state.thirdPlace = getAutoThirdPlaceTeams().map(item => item.row.team);
 }
 
-const TP_TABLE = {};
-const TP_COLUMNS = [];
+
 
 function buildTPAllocation() {
   tpAllocation = {};
