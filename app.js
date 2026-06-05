@@ -1871,7 +1871,7 @@ async function init() {
   document.getElementById('predictionModal').addEventListener('click', e => { if (e.target.id === 'predictionModal') closePredictionModal(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') { closePredictionModal(); closeAwardPickerModal(); } });
   restoreLocalPrediction(); fillAwards(state.awards); computeMatchTeams(); renderAll();
-  document.querySelectorAll('#awardGb1,#awardGb2,#awardGb3,#awardBa1,#awardBa2,#awardBa3').forEach(el => {
+  document.querySelectorAll('#awardGb1,#awardGb2,#awardGb3,#awardBa1,#awardBa2,#awardBa3,#awardGg1,#awardGg2,#awardGg3').forEach(el => {
     el.addEventListener('input', saveLocalPredictionSoon);
     el.addEventListener('change', saveLocalPredictionSoon);
   });
