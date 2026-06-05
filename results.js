@@ -303,7 +303,7 @@ const RESULTS = {
     "goldenGlove": [
       "Lionel Messi",
       "Jude Bellingham",
-      "Kevin De Bruyne"
+      "Kevin De Bruyne",
     ]
   }
 };
