@@ -722,7 +722,7 @@ const AWARD_PLAYERS = [
 { name: 'PO ATEYAH', country: 'Jordan' },
 { name: 'ALMARDI', country: 'Jordan' },
 { name: 'RAJA EI', country: 'Jordan' },
-{ name: 'SA'DEH', country: 'Jordan' },
+{ name: 'SA DEH', country: 'Jordan' },
 { name: 'ALNADI', country: 'Jordan' },
 { name: 'SALEEM', country: 'Jordan' },
 { name: 'SABRA', country: 'Jordan' },
