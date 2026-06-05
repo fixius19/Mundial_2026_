@@ -83,6 +83,7 @@ const RESULTS = {
 
   awards: {
     goldenBoot: [],
-    goldenBall: []
+    goldenBall: [],
+    goldenGlove: []
   }
 };
