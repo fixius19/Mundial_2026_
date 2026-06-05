@@ -1386,7 +1386,7 @@ function scorePrediction(prediction, results = RESULTS) {
   if (realBall[0] && predBall[0] === realBall[0]) score += puntuaciones.premios.goldenBall[0];
   if (realBall[1] && predBall[1] === realBall[1]) score += puntuaciones.premios.goldenBall[1];
   if (realBall[2] && predBall[2] === realBall[2]) score += puntuaciones.premios.goldenBall[2];
-   const predGlove = prediction.awards?.goldenGlove || [], realBall = results.awards?.goldenGlove || [];
+   const predGlove = prediction.awards?.goldenGlove || [], realGlove = results.awards?.goldenGlove || [];
   if (realGlove[0] && predGlove[0] === realGlove[0]) score += puntuaciones.premios.goldenGlove[0];
   if (realGlove[1] && predGlove[1] === realGlove[1]) score += puntuaciones.premios.goldenGlove[1];
   if (realGlove[2] && predGlove[2] === realGlove[2]) score += puntuaciones.premios.goldenGlove[2];
