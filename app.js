@@ -1198,7 +1198,7 @@ function readAwards() {
   return {
     goldenBoot: [document.getElementById('awardGb1')?.value || '', document.getElementById('awardGb2')?.value || '', document.getElementById('awardGb3')?.value || ''],
     goldenBall: [document.getElementById('awardBa1')?.value || '', document.getElementById('awardBa2')?.value || '', document.getElementById('awardBa3')?.value || ''],
-    goldenGlove: [document.getElementById('awardGg1')?.value || '', document.getElementById('awardGg2')?.value || '', document.getElementById('awardgg3')?.value || '']
+    goldenGlove: [document.getElementById('awardGg1')?.value || '', document.getElementById('awardGg2')?.value || '', document.getElementById('awardGg3')?.value || '']
   };
 }
 
