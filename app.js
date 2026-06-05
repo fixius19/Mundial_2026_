@@ -1306,7 +1306,6 @@ const AWARD_PLAYERS = [
 { name: 'KARIMOV', country: 'Uzbekistan' },
 { name: 'ULMASALIYEV', country: 'Uzbekistan' },
 { name: 'UROZOV', country: 'Uzbekistan' },
-
 ];
 
 function getFlagClass(team) {
