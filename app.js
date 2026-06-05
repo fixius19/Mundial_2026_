@@ -502,7 +502,7 @@ const AWARD_PLAYERS = [
 { name: 'PO ALAA', country: 'Egypt' },
 { name: 'PO PICKFORD', country: 'England' },
 { name: 'KONSA', country: 'England' },
-{ name: 'O'REILLY', country: 'England' },
+{ name: 'O REILLY', country: 'England' },
 { name: 'RICE', country: 'England' },
 { name: 'STONES', country: 'England' },
 { name: 'GUEHI', country: 'England' },
