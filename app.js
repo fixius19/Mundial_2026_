@@ -122,7 +122,7 @@ const AWARD_PLAYERS = [
 { name: 'HRUSTIC', country: 'Australia' },
 { name: 'MABIL', country: 'Australia' },
 { name: 'PO IZZO', country: 'Australia' },
-{ name: 'O'NEILL', country: 'Australia' },
+{ name: 'O NEILL', country: 'Australia' },
 { name: 'DEVLIN', country: 'Australia' },
 { name: 'TREWIN', country: 'Australia' },
 { name: 'BEHICH', country: 'Australia' },
