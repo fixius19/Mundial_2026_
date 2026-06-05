@@ -1079,7 +1079,7 @@ function clearKnockoutAndRender(team) {
   computeMatchTeams(); renderAll(); saveLocalPredictionSoon();
 }
 
-const AWARD_SELECT_IDS = ['awardGb1', 'awardGb2', 'awardGb3', 'awardBa1', 'awardBa2', 'awardBa3'];
+const AWARD_SELECT_IDS = ['awardGb1', 'awardGb2', 'awardGb3', 'awardBa1', 'awardBa2', 'awardBa3', 'awardGg1', 'awardGg2', 'awardGg3'];
 
 function getPlayerByName(name) { return AWARD_PLAYERS.find(p => p.name === name) || null; }
 
