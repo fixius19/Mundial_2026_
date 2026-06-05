@@ -377,7 +377,8 @@ function restoreLocalPrediction() {
     if (data.awards) {
       state.awards = {
         goldenBoot: data.awards.goldenBoot || ['', '', ''],
-        goldenBall: data.awards.goldenBall || ['', '', '']
+        goldenBall: data.awards.goldenBall || ['', '', ''],
+        goldenGlove: data.awards.goldenGlove || ['', '', '']
       };
     }
     normalizeLoadedState();
@@ -1195,7 +1196,8 @@ function syncAwardCustomSelects() {
 function readAwards() {
   return {
     goldenBoot: [document.getElementById('awardGb1')?.value || '', document.getElementById('awardGb2')?.value || '', document.getElementById('awardGb3')?.value || ''],
-    goldenBall: [document.getElementById('awardBa1')?.value || '', document.getElementById('awardBa2')?.value || '', document.getElementById('awardBa3')?.value || '']
+    goldenBall: [document.getElementById('awardBa1')?.value || '', document.getElementById('awardBa2')?.value || '', document.getElementById('awardBa3')?.value || ''],
+    goldenGlove: [document.getElementById('awardGg1')?.value || '', document.getElementById('awardGg2')?.value || '', document.getElementById('awardgg3')?.value || '']
   };
 }
 
@@ -1204,6 +1206,7 @@ function fillAwards(a) {
   if (!a) return;
   if (a.goldenBoot) { document.getElementById('awardGb1').value = a.goldenBoot[0] || ''; document.getElementById('awardGb2').value = a.goldenBoot[1] || ''; document.getElementById('awardGb3').value = a.goldenBoot[2] || ''; }
   if (a.goldenBall) { document.getElementById('awardBa1').value = a.goldenBall[0] || ''; document.getElementById('awardBa2').value = a.goldenBall[1] || ''; document.getElementById('awardBa3').value = a.goldenBall[2] || ''; }
+  if (a.goldenGlove) { document.getElementById('awardGg1').value = a.goldenGlove[0] || ''; document.getElementById('awardGg2').value = a.goldenGlove[1] || ''; document.getElementById('awardGg3').value = a.goldenGlove[2] || ''; }
   syncAwardCustomSelects();
 }
 
@@ -1382,6 +1385,10 @@ function scorePrediction(prediction, results = RESULTS) {
   if (realBall[0] && predBall[0] === realBall[0]) score += puntuaciones.premios.goldenBall[0];
   if (realBall[1] && predBall[1] === realBall[1]) score += puntuaciones.premios.goldenBall[1];
   if (realBall[2] && predBall[2] === realBall[2]) score += puntuaciones.premios.goldenBall[2];
+   const predGlove = prediction.awards?.goldenGlove || [], realBall = results.awards?.goldenGlove || [];
+  if (realGlove[0] && predGlove[0] === realGlove[0]) score += puntuaciones.premios.goldenGlove[0];
+  if (realGlove[1] && predGlove[1] === realGlove[1]) score += puntuaciones.premios.goldenGlove[1];
+  if (realGlove[2] && predGlove[2] === realGlove[2]) score += puntuaciones.premios.goldenGlove[2];
   return score;
 }
 
@@ -1774,6 +1781,9 @@ function renderReviewAwards(prediction) {
     [`Balón de oro (${puntuaciones.premios.goldenBall[0]}pt)`, prediction.awards?.goldenBall?.[0], RESULTS.awards?.goldenBall?.[0]],
     [`Balón de plata (${puntuaciones.premios.goldenBall[1]}pt)`, prediction.awards?.goldenBall?.[1], RESULTS.awards?.goldenBall?.[1]],
     [`Balón de bronce (${puntuaciones.premios.goldenBall[2]}pt)`, prediction.awards?.goldenBall?.[2], RESULTS.awards?.goldenBall?.[2]]
+    [`Guante de oro (${puntuaciones.premios.goldenGlove[0]}pt)`, prediction.awards?.goldenGlove?.[0], RESULTS.awards?.goldenGlove?.[0]],
+    [`Guante de plata (${puntuaciones.premios.goldenGlove[1]}pt)`, prediction.awards?.goldenGlove?.[1], RESULTS.awards?.goldenGlove?.[1]],
+    [`Guante de bronce (${puntuaciones.premios.goldenGlove[2]}pt)`, prediction.awards?.goldenGlove?.[2], RESULTS.awards?.goldenGlove?.[2]]
   ];
   rows.forEach(([label, predicted, real]) => {
     const resolved = Boolean(real), correct = resolved && predicted === real, wrong = resolved && predicted !== real;
@@ -1793,7 +1803,7 @@ function resetState() {
   GROUP_NAMES.forEach(g => { state.groups[g] = TEAMS_BY_GROUP[g].map(t => t.name); });
   state.groupMatches = {}; ensureAllGroupMatches(); updateAllGroupOrdersFromMatches();
   state.thirdPlace = []; state.knockoutResults = {}; state.matchTeams = {}; state.knockout = {};
-  state.awards = { goldenBoot: ['', '', ''], goldenBall: ['', '', ''] };
+  state.awards = { goldenBoot: ['', '', ''], goldenBall: ['', '', ''], goldenGlove: ['', '', ''] };
   fillAwards(state.awards); clearLocalPrediction(); renderAll();
   showToast('A tomar por culo.');
 }
