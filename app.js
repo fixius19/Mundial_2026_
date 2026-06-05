@@ -35,7 +35,8 @@ const puntuaciones = {
   },
   premios: {
     goldenBoot: [15, 10, 5],
-    goldenBall: [15, 10, 5]
+    goldenBall: [15, 10, 5],
+    goldenGlove: [15, 10, 5]
   }
 };
 
@@ -306,7 +307,7 @@ let state = {
   thirdPlace: [],
   matchTeams: {},
   knockoutResults: {},
-  awards: { goldenBoot: ['','',''], goldenBall: ['','',''] }
+  awards: { goldenBoot: ['','',''], goldenBall: ['','',''], goldenGlove: ['','',''] }
 };
 
 const LOCAL_STORAGE_VERSION = '5';
@@ -1491,6 +1492,7 @@ function openScoringHelpModal() {
           <ul>
             <li>Bota de Oro: <strong>${puntuaciones.premios.goldenBoot.join(' / ')} pts</strong></li>
             <li>Balón de Oro: <strong>${puntuaciones.premios.goldenBall.join(' / ')} pts</strong></li>
+            <li>Guante de Oro: <strong>${puntuaciones.premios.goldenGlove.join(' / ')} pts</strong></li>
           </ul>
         </div>
       </div>
