@@ -1782,7 +1782,7 @@ function renderReviewAwards(prediction) {
     [`Bota de bronce(${puntuaciones.premios.goldenBoot[2]}pt)`, prediction.awards?.goldenBoot?.[2], RESULTS.awards?.goldenBoot?.[2]],
     [`Balón de oro (${puntuaciones.premios.goldenBall[0]}pt)`, prediction.awards?.goldenBall?.[0], RESULTS.awards?.goldenBall?.[0]],
     [`Balón de plata (${puntuaciones.premios.goldenBall[1]}pt)`, prediction.awards?.goldenBall?.[1], RESULTS.awards?.goldenBall?.[1]],
-    [`Balón de bronce (${puntuaciones.premios.goldenBall[2]}pt)`, prediction.awards?.goldenBall?.[2], RESULTS.awards?.goldenBall?.[2]]
+    [`Balón de bronce (${puntuaciones.premios.goldenBall[2]}pt)`, prediction.awards?.goldenBall?.[2], RESULTS.awards?.goldenBall?.[2]],
     [`Guante de oro (${puntuaciones.premios.goldenGlove[0]}pt)`, prediction.awards?.goldenGlove?.[0], RESULTS.awards?.goldenGlove?.[0]],
     [`Guante de plata (${puntuaciones.premios.goldenGlove[1]}pt)`, prediction.awards?.goldenGlove?.[1], RESULTS.awards?.goldenGlove?.[1]],
     [`Guante de bronce (${puntuaciones.premios.goldenGlove[2]}pt)`, prediction.awards?.goldenGlove?.[2], RESULTS.awards?.goldenGlove?.[2]]
