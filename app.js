@@ -1332,7 +1332,7 @@ const FIFA_RANKING_TIEBREAK = {
   'Algeria': 31,'Tunisia': 32,'Paraguay': 33,'Ivory Coast': 34,'Saudi Arabia': 35,
   'Scotland': 36,'Bosnia & Herzegovina': 37,'Czech Republic': 38,'Iraq': 39,
   'Uzbekistan': 40,'Jordan': 41,'DR Congo': 42,'South Africa': 43,
-  'Cape Verde': 44,'New Zealand': 45,'Haiti': 46,'Curaçao': 47
+  'Cape Verde': 44,'New Zealand': 45,'Haiti': 46,'Curaçao': 47,'Ghana': 48
 };
 
 function getTeamConductScore(team) {
