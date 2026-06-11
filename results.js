@@ -1,87 +1,87 @@
 const RESULTS = {
   "groups": {
     "A": [
-      "Mexico",
-      "South Africa",
-      "Czech Republic",
-      "South Korea"
+      "null",
+      "null",
+      "null",
+      "null"
     ],
     "B": [
-      "Switzerland",
-      "Canada",
-      "Qatar",
-      "Bosnia & Herzegovina"
+      "null",
+      "null",
+      "null",
+      "null"
     ],
     "C": [
-      "Brazil",
-      "Scotland",
-      "Morocco",
-      "Haiti"
+      "null",
+      "null",
+      "null",
+      "null"
     ],
     "D": [
-      "Turkey",
-      "Paraguay",
-      "USA",
-      "Australia"
+      "null",
+      "null",
+      "null",
+      "null"
     ],
     "E": [
-      "Ivory Coast",
-      "Curaçao",
-      "Ecuador",
-      "Germany"
+      "null",
+      "null",
+      "null",
+      "null"
     ],
     "F": [
-      "Netherlands",
-      "Japan",
-      "Sweden",
-      "Tunisia"
+      "null",
+      "null",
+      "null",
+      "null"
     ],
     "G": [
-      "Egypt",
-      "Belgium",
-      "New Zealand",
-      "Iran"
+      "null",
+      "null",
+      "null",
+      "null"
     ],
     "H": [
-      "Uruguay",
-      "Cape Verde",
-      "Spain",
-      "Saudi Arabia"
+      "null",
+      "null",
+      "null",
+      "null"
     ],
     "I": [
-      "Norway",
-      "France",
-      "Iraq",
-      "Senegal"
+      "null",
+      "null",
+      "null",
+      "null"
     ],
     "J": [
-      "Jordan",
-      "Argentina",
-      "Algeria",
-      "Austria"
+      "null",
+      "null",
+      "null",
+      "null"
     ],
     "K": [
-      "DR Congo",
-      "Portugal",
-      "Colombia",
-      "Uzbekistan"
+      "null",
+      "null",
+      "null",
+      "null"
     ],
     "L": [
-      "Ghana",
-      "Panama",
-      "Croatia",
-      "England"
+      "null",
+      "null",
+      "null",
+      "null"
     ]
   },
   "thirdPlace": [
-    "Sweden",
-    "Colombia",
-    "Iraq",
-    "Morocco",
-    "Algeria",
-    "Spain",
-    "Ecuador",
-    "New Zealand"
+    "null",
+    "null",
+    "null",
+    "null",
+    "null",
+    "null",
+    "null",
+    "null"
   ],
   "groupMatches": {
     "A": {
@@ -141,7 +141,7 @@ const RESULTS = {
       "Iran__New Zealand": { "home": null, "away": null }
     },
     "H": {
-      "Uruguay__Spain": { "home": null, "away": 0 },
+      "Uruguay__Spain": { "home": null, "away": null },
       "Uruguay__Saudi Arabia": { "home": null, "away": null },
       "Uruguay__Cape Verde": { "home": null, "away": null },
       "Spain__Saudi Arabia": { "home": null, "away": null },
