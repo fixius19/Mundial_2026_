@@ -95,7 +95,7 @@ const RESULTS = {
     "B": {
       "Canada__Switzerland": { "home": null, "away": null },
       "Canada__Qatar": { "home": null, "away": null },
-      "Canada__Bosnia & Herzegovina": { "home": null, "away": null },
+      "Canada__Bosnia & Herzegovina": { "home": 1, "away": 1 },
       "Switzerland__Qatar": { "home": null, "away": null },
       "Switzerland__Bosnia & Herzegovina": { "home": null, "away": null },
       "Qatar__Bosnia & Herzegovina": { "home": null, "away": null }
@@ -113,7 +113,7 @@ const RESULTS = {
       "Turkey__Australia": { "home": null, "away": null },
       "Turkey__USA": { "home": null, "away": null },
       "Paraguay__Australia": { "home": null, "away": null },
-      "Paraguay__USA": { "home": null, "away": null },
+      "Paraguay__USA": { "home": 4, "away": 1 },
       "Australia__USA": { "home": null, "away": null }
     },
     "E": {
