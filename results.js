@@ -118,7 +118,7 @@ const RESULTS = {
     },
     "E": {
       "Curaçao__Ecuador": { "home": null, "away": null },
-      "Curaçao__Germany": { "home": null, "away": null },
+      "Curaçao__Germany": { "home": 7, "away": 1 },
       "Curaçao__Ivory Coast": { "home": null, "away": null },
       "Ecuador__Germany": { "home": null, "away": null },
       "Ecuador__Ivory Coast": { "home": null, "away": null },
