@@ -96,21 +96,21 @@ const RESULTS = {
       "Canada__Switzerland": { "home": null, "away": null },
       "Canada__Qatar": { "home": null, "away": null },
       "Canada__Bosnia & Herzegovina": { "home": 1, "away": 1 },
-      "Switzerland__Qatar": { "home": null, "away": null },
+      "Switzerland__Qatar": { "home": 1, "away": 1 },
       "Switzerland__Bosnia & Herzegovina": { "home": null, "away": null },
       "Qatar__Bosnia & Herzegovina": { "home": null, "away": null }
     },
     "C": {
       "Brazil__Haiti": { "home": null, "away": null },
-      "Brazil__Morocco": { "home": null, "away": null },
+      "Brazil__Morocco": { "home": 1, "away": 1 },
       "Brazil__Scotland": { "home": null, "away": null },
       "Haiti__Morocco": { "home": null, "away": null },
-      "Haiti__Scotland": { "home": null, "away": null },
+      "Haiti__Scotland": { "home": 0, "away": 1 },
       "Morocco__Scotland": { "home": null, "away": null }
     },
     "D": {
       "Turkey__Paraguay": { "home": null, "away": null },
-      "Turkey__Australia": { "home": null, "away": null },
+      "Turkey__Australia": { "home": 2, "away": 0 },
       "Turkey__USA": { "home": null, "away": null },
       "Paraguay__Australia": { "home": null, "away": null },
       "Paraguay__USA": { "home": 4, "away": 1 },
