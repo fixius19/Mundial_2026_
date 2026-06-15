@@ -121,16 +121,16 @@ const RESULTS = {
       "Curaçao__Germany": { "home": 7, "away": 1 },
       "Curaçao__Ivory Coast": { "home": null, "away": null },
       "Ecuador__Germany": { "home": null, "away": null },
-      "Ecuador__Ivory Coast": { "home": null, "away": null },
+      "Ecuador__Ivory Coast": { "home": 1, "away": 0 },
       "Germany__Ivory Coast": { "home": null, "away": null }
     },
     "F": {
-      "Japan__Netherlands": { "home": null, "away": null },
+      "Japan__Netherlands": { "home": 2, "away": 2 },
       "Japan__Tunisia": { "home": null, "away": null },
       "Japan__Sweden": { "home": null, "away": null },
       "Netherlands__Tunisia": { "home": null, "away": null },
       "Netherlands__Sweden": { "home": null, "away": null },
-      "Tunisia__Sweden": { "home": null, "away": null }
+      "Tunisia__Sweden": { "home": 5, "away": 1 }
     },
     "G": {
       "Egypt__Belgium": { "home": null, "away": null },
