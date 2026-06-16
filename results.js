@@ -133,16 +133,16 @@ const RESULTS = {
       "Tunisia__Sweden": { "home": 5, "away": 1 }
     },
     "G": {
-      "Egypt__Belgium": { "home": null, "away": null },
+      "Egypt__Belgium": { "home": 1, "away": 1 },
       "Egypt__Iran": { "home": null, "away": null },
       "Egypt__New Zealand": { "home": null, "away": null },
       "Belgium__Iran": { "home": null, "away": null },
       "Belgium__New Zealand": { "home": null, "away": null },
-      "Iran__New Zealand": { "home": null, "away": null }
+      "Iran__New Zealand": { "home": 2, "away": 2 }
     },
     "H": {
       "Uruguay__Spain": { "home": null, "away": null },
-      "Uruguay__Saudi Arabia": { "home": null, "away": null },
+      "Uruguay__Saudi Arabia": { "home": 1, "away": 1 },
       "Uruguay__Cape Verde": { "home": null, "away": null },
       "Spain__Saudi Arabia": { "home": null, "away": null },
       "Spain__Cape Verde": { "home": 0, "away": 0 },
