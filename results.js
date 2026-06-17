@@ -150,15 +150,15 @@ const RESULTS = {
     },
     "I": {
       "France__Iraq": { "home": null, "away": null },
-      "France__Senegal": { "home": null, "away": null },
+      "France__Senegal": { "home": 3, "away": 1 },
       "France__Norway": { "home": null, "away": null },
       "Iraq__Senegal": { "home": null, "away": null },
-      "Iraq__Norway": { "home": null, "away": null },
+      "Iraq__Norway": { "home": 1, "away": 4 },
       "Senegal__Norway": { "home": null, "away": null }
     },
     "J": {
       "Argentina__Jordan": { "home": null, "away": null },
-      "Argentina__Algeria": { "home": null, "away": null },
+      "Argentina__Algeria": { "home": 3, "away": 0 },
       "Argentina__Austria": { "home": null, "away": null },
       "Jordan__Algeria": { "home": null, "away": null },
       "Jordan__Austria": { "home": null, "away": null },
