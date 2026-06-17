@@ -166,7 +166,7 @@ const RESULTS = {
     },
     "K": {
       "Portugal__Uzbekistan": { "home": null, "away": null },
-      "Portugal__DR Congo": { "home": null, "away": null },
+      "Portugal__DR Congo": { "home": 1, "away": 1 },
       "Portugal__Colombia": { "home": null, "away": null },
       "Uzbekistan__DR Congo": { "home": null, "away": null },
       "Uzbekistan__Colombia": { "home": null, "away": null },
