@@ -106,7 +106,7 @@ const RESULTS = {
       "Brazil__Scotland": { "home": null, "away": null },
       "Haiti__Morocco": { "home": null, "away": null },
       "Haiti__Scotland": { "home": 0, "away": 1 },
-      "Morocco__Scotland": { "home": null, "away": null }
+      "Morocco__Scotland": { "home": 0, "away": 1 }
     },
     "D": {
       "Turkey__Paraguay": { "home": null, "away": null },
@@ -114,7 +114,7 @@ const RESULTS = {
       "Turkey__USA": { "home": null, "away": null },
       "Paraguay__Australia": { "home": null, "away": null },
       "Paraguay__USA": { "home": 4, "away": 1 },
-      "Australia__USA": { "home": null, "away": null }
+      "Australia__USA": { "home": 2, "away": 0 }
     },
     "E": {
       "Curaçao__Ecuador": { "home": null, "away": null },
