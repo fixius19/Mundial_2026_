@@ -117,7 +117,7 @@ const RESULTS = {
       "Australia__USA": { "home": 2, "away": 0 }
     },
     "E": {
-      "Curaçao__Ecuador": { "home": null, "away": null },
+      "Curaçao__Ecuador": { "home": 0, "away": 0 },
       "Curaçao__Germany": { "home": 7, "away": 1 },
       "Curaçao__Ivory Coast": { "home": null, "away": null },
       "Ecuador__Germany": { "home": null, "away": null },
@@ -126,7 +126,7 @@ const RESULTS = {
     },
     "F": {
       "Japan__Netherlands": { "home": 2, "away": 2 },
-      "Japan__Tunisia": { "home": null, "away": null },
+      "Japan__Tunisia": { "home": 0, "away": 4 },
       "Japan__Sweden": { "home": null, "away": null },
       "Netherlands__Tunisia": { "home": null, "away": null },
       "Netherlands__Sweden": { "home": 5, "away": 1 },
