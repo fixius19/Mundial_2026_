@@ -144,7 +144,7 @@ const RESULTS = {
       "Uruguay__Spain": { "home": null, "away": null },
       "Uruguay__Saudi Arabia": { "home": 1, "away": 1 },
       "Uruguay__Cape Verde": { "home": null, "away": null },
-      "Spain__Saudi Arabia": { "home": null, "away": null },
+      "Spain__Saudi Arabia": { "home": 4, "away": 0 },
       "Spain__Cape Verde": { "home": 0, "away": 0 },
       "Saudi Arabia__Cape Verde": { "home": null, "away": null }
     },
