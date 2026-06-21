@@ -122,14 +122,14 @@ const RESULTS = {
       "Curaçao__Ivory Coast": { "home": null, "away": null },
       "Ecuador__Germany": { "home": null, "away": null },
       "Ecuador__Ivory Coast": { "home": 1, "away": 0 },
-      "Germany__Ivory Coast": { "home": null, "away": null }
+      "Germany__Ivory Coast": { "home": 2, "away": 1 }
     },
     "F": {
       "Japan__Netherlands": { "home": 2, "away": 2 },
       "Japan__Tunisia": { "home": null, "away": null },
       "Japan__Sweden": { "home": null, "away": null },
       "Netherlands__Tunisia": { "home": null, "away": null },
-      "Netherlands__Sweden": { "home": null, "away": null },
+      "Netherlands__Sweden": { "home": 5, "away": 1 },
       "Tunisia__Sweden": { "home": 5, "away": 1 }
     },
     "G": {
