@@ -135,7 +135,7 @@ const RESULTS = {
     "G": {
       "Egypt__Belgium": { "home": 1, "away": 1 },
       "Egypt__Iran": { "home": null, "away": null },
-      "Egypt__New Zealand": { "home": null, "away": null },
+      "Egypt__New Zealand": { "home": 1, "away": 3 },
       "Belgium__Iran": { "home": 0, "away": 0 },
       "Belgium__New Zealand": { "home": null, "away": null },
       "Iran__New Zealand": { "home": 2, "away": 2 }
@@ -143,7 +143,7 @@ const RESULTS = {
     "H": {
       "Uruguay__Spain": { "home": null, "away": null },
       "Uruguay__Saudi Arabia": { "home": 1, "away": 1 },
-      "Uruguay__Cape Verde": { "home": null, "away": null },
+      "Uruguay__Cape Verde": { "home": 2, "away": 2 },
       "Spain__Saudi Arabia": { "home": 4, "away": 0 },
       "Spain__Cape Verde": { "home": 0, "away": 0 },
       "Saudi Arabia__Cape Verde": { "home": null, "away": null }
