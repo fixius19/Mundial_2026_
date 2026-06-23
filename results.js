@@ -149,18 +149,18 @@ const RESULTS = {
       "Saudi Arabia__Cape Verde": { "home": null, "away": null }
     },
     "I": {
-      "France__Iraq": { "home": null, "away": null },
+      "France__Iraq": { "home": 3, "away": 0 },
       "France__Senegal": { "home": 3, "away": 1 },
       "France__Norway": { "home": null, "away": null },
       "Iraq__Senegal": { "home": null, "away": null },
       "Iraq__Norway": { "home": 1, "away": 4 },
-      "Senegal__Norway": { "home": null, "away": null }
+      "Senegal__Norway": { "home": 3, "away": 2 }
     },
     "J": {
       "Argentina__Jordan": { "home": null, "away": null },
       "Argentina__Algeria": { "home": 3, "away": 0 },
       "Argentina__Austria": { "home": 2, "away": 0 },
-      "Jordan__Algeria": { "home": null, "away": null },
+      "Jordan__Algeria": { "home": 1, "away": 2 },
       "Jordan__Austria": { "home": 3, "away": 1 },
       "Algeria__Austria": { "home": null, "away": null }
     },
