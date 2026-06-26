@@ -13,28 +13,28 @@ const RESULTS = {
       "Qatar"
     ],
     "C": [
-      "Germany",
-      "Ivory Coast",
-      "Ecuador",
-      "Curaçao"
-    ],
-    "D": [
       "Brazil",
       "Morocco",
       "Scotland",
       "Haiti"
     ],
+    "D": [
+      "USA",
+      "Australia",
+      "Paraguay",
+      "Turkey"
+    ],
     "E": [
-      "null",
-      "null",
-      "null",
-      "null"
+      "Germany",
+      "Ivory Coast",
+      "Ecuador",
+      "Curaçao"
     ],
     "F": [
-      "null",
-      "null",
-      "null",
-      "null"
+      "Netherlands",
+      "Japan",
+      "Sweden",
+      "Tunisia"
     ],
     "G": [
       "null",
