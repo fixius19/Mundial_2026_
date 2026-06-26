@@ -1,28 +1,28 @@
 const RESULTS = {
   "groups": {
     "A": [
-      "null",
-      "null",
-      "null",
-      "null"
+      "Mexico",
+      "South Africa",
+      "South Korea",
+      "Czech Republic"
     ],
     "B": [
-      "null",
-      "null",
-      "null",
-      "null"
+      "Switzerland",
+      "Canada",
+      "Bosnia & Herzegovina",
+      "Qatar"
     ],
     "C": [
-      "null",
-      "null",
-      "null",
-      "null"
+      "Germany",
+      "Ivory Coast",
+      "Ecuador",
+      "Curaçao"
     ],
     "D": [
-      "null",
-      "null",
-      "null",
-      "null"
+      "Brazil",
+      "Morocco",
+      "Scotland",
+      "Haiti"
     ],
     "E": [
       "null",
