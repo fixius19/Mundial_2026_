@@ -111,8 +111,8 @@ const RESULTS = {
     "D": {
       "Turkey__Paraguay": { "home": 0, "away": 1 },
       "Turkey__Australia": { "home": 2, "away": 0 },
-      "Turkey__USA": { "home": null, "away": null },
-      "Paraguay__Australia": { "home": null, "away": null },
+      "Turkey__USA": { "home": 3, "away": 2 },
+      "Paraguay__Australia": { "home": 0, "away": 0 },
       "Paraguay__USA": { "home": 4, "away": 1 },
       "Australia__USA": { "home": 2, "away": 0 }
     },
@@ -127,7 +127,7 @@ const RESULTS = {
     "F": {
       "Japan__Netherlands": { "home": 2, "away": 2 },
       "Japan__Tunisia": { "home": 0, "away": 4 },
-      "Japan__Sweden": { "home": null, "away": null },
+      "Japan__Sweden": { "home": 1, "away": 1 },
       "Netherlands__Tunisia": { "home": null, "away": null },
       "Netherlands__Sweden": { "home": 5, "away": 1 },
       "Tunisia__Sweden": { "home": 5, "away": 1 }
