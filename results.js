@@ -74,14 +74,14 @@ const RESULTS = {
     ]
   },
   "thirdPlace": [
-    "Ghana",
-    "Sweden",
     "DR Congo",
+    "Sweden",
     "Ecuador",
-    "Algeria",
-    "Senegal",
+    "Ghana",
     "Bosnia & Herzegovina",
-    "Paraguay"
+    "Algeria",
+    "Paraguay",
+    "Senegal"
   ],
   "groupMatches": {
     "A": {
