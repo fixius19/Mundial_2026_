@@ -183,8 +183,8 @@ const RESULTS = {
   },
   "knockout": {
     "round32": [
-      "null",
-      "null",
+      "Canada",
+      "Brazil",
       "null",
       "null",
       "null",
@@ -231,8 +231,8 @@ const RESULTS = {
     "thirdPlace": "null",
     "matches": {
       "round32": [
-        { "match": 73, "team1": "null", "team2": "null", "winner": "null" },
-        { "match": 74, "team1": "null", "team2": "null", "winner": "null" },
+        { "match": 73, "team1": "South Africa", "team2": "Canada", "winner": "Canada" },
+        { "match": 74, "team1": "Brazil", "team2": "Japan", "winner": "Brazil" },
         { "match": 75, "team1": "null", "team2": "null", "winner": "null" },
         { "match": 76, "team1": "null", "team2": "null", "winner": "null" },
         { "match": 77, "team1": "null", "team2": "null", "winner": "null" },
