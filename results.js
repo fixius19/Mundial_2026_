@@ -37,51 +37,51 @@ const RESULTS = {
       "Tunisia"
     ],
     "G": [
-      "null",
-      "null",
-      "null",
-      "null"
+      "Belgium",
+      "Egypt",
+      "Iran"
+      "New Zealand",
     ],
     "H": [
-      "null",
-      "null",
-      "null",
-      "null"
+      "Spain",
+      "Uruguay",
+      "Cape Verde",
+      "Saudi Arabia"
     ],
     "I": [
-      "null",
-      "null",
-      "null",
-      "null"
+      "France",
+      "Norway",
+      "Senegal"
+      "Iraq",
     ],
     "J": [
-      "null",
-      "null",
-      "null",
-      "null"
+      "Argentina",
+      "Austria"
+      "Algeria",
+      "Jordan",
     ],
     "K": [
-      "null",
-      "null",
-      "null",
-      "null"
+      "Colombia",
+      "Portugal",
+      "DR Congo",
+      "Uzbekistan"
     ],
     "L": [
-      "null",
-      "null",
-      "null",
-      "null"
+      "England"
+      "Croatia",
+      "Ghana",
+      "Panama",
     ]
   },
   "thirdPlace": [
-    "null",
-    "null",
-    "null",
-    "null",
-    "null",
-    "null",
-    "null",
-    "null"
+    "Ghana",
+    "Sweden",
+    "DR Congo",
+    "Ecuador",
+    "Algeria",
+    "Senegal",
+    "Bosnia & Herzegovina",
+    "Paraguay"
   ],
   "groupMatches": {
     "A": {
@@ -128,7 +128,7 @@ const RESULTS = {
       "Japan__Netherlands": { "home": 2, "away": 2 },
       "Japan__Tunisia": { "home": 0, "away": 4 },
       "Japan__Sweden": { "home": 1, "away": 1 },
-      "Netherlands__Tunisia": { "home": null, "away": null },
+      "Netherlands__Tunisia": { "home": 1, "away": 3 },
       "Netherlands__Sweden": { "home": 5, "away": 1 },
       "Tunisia__Sweden": { "home": 5, "away": 1 }
     },
@@ -157,26 +157,26 @@ const RESULTS = {
       "Senegal__Norway": { "home": 3, "away": 2 }
     },
     "J": {
-      "Argentina__Jordan": { "home": null, "away": null },
+      "Argentina__Jordan": { "home": 1, "away": 3 },
       "Argentina__Algeria": { "home": 3, "away": 0 },
       "Argentina__Austria": { "home": 2, "away": 0 },
       "Jordan__Algeria": { "home": 1, "away": 2 },
       "Jordan__Austria": { "home": 3, "away": 1 },
-      "Algeria__Austria": { "home": null, "away": null }
+      "Algeria__Austria": { "home": 3, "away": 3 }
     },
     "K": {
       "Portugal__Uzbekistan": { "home": 5, "away": 0 },
       "Portugal__DR Congo": { "home": 1, "away": 1 },
-      "Portugal__Colombia": { "home": null, "away": null },
-      "Uzbekistan__DR Congo": { "home": null, "away": null },
+      "Portugal__Colombia": { "home": 0, "away": 0 },
+      "Uzbekistan__DR Congo": { "home": 3, "away": 1 },
       "Uzbekistan__Colombia": { "home": 1, "away": 3 },
       "DR Congo__Colombia": { "home": 1, "away": 0 }
     },
     "L": {
       "England__Ghana": { "home": 0, "away": 0 },
       "England__Croatia": { "home": 4, "away": 2 },
-      "England__Panama": { "home": null, "away": null },
-      "Ghana__Croatia": { "home": null, "away": null },
+      "England__Panama": { "home": 0, "away": 2 },
+      "Ghana__Croatia": { "home": 2, "away": 1 },
       "Ghana__Panama": { "home": 1, "away": 0 },
       "Croatia__Panama": { "home": 0, "away": 1 }
     }
