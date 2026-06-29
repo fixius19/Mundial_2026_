@@ -184,9 +184,9 @@ const RESULTS = {
   "knockout": {
     "round32": [
       "Canada",
+      "null",
+      "null",
       "Brazil",
-      "null",
-      "null",
       "null",
       "null",
       "null",
