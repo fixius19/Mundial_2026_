@@ -39,8 +39,8 @@ const RESULTS = {
     "G": [
       "Belgium",
       "Egypt",
-      "Iran"
-      "New Zealand",
+      "Iran",
+      "New Zealand"
     ],
     "H": [
       "Spain",
@@ -51,14 +51,14 @@ const RESULTS = {
     "I": [
       "France",
       "Norway",
-      "Senegal"
-      "Iraq",
+      "Senegal",
+      "Iraq"
     ],
     "J": [
       "Argentina",
-      "Austria"
+      "Austria",
       "Algeria",
-      "Jordan",
+      "Jordan"
     ],
     "K": [
       "Colombia",
@@ -67,10 +67,10 @@ const RESULTS = {
       "Uzbekistan"
     ],
     "L": [
-      "England"
+      "England",
       "Croatia",
       "Ghana",
-      "Panama",
+      "Panama"
     ]
   },
   "thirdPlace": [
