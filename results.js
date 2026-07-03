@@ -193,9 +193,9 @@ const RESULTS = {
       "England",
       "USA",
       "Belgium",
-      "null",
-      "null",
-      "null",
+      "Portugal",
+      "Spain",
+      "Switzerland",
       "null",
       "null",
       "null"
@@ -241,9 +241,9 @@ const RESULTS = {
         { "match": 80, "team1": "England", "team2": "Dr Congo", "winner": "England" },
         { "match": 81, "team1": "USA", "team2": "Bosnia & Herzegovina", "winner": "USA" },
         { "match": 82, "team1": "Belgium", "team2": "Senegal", "winner": "Belgium" },
-        { "match": 83, "team1": "Portugal", "team2": "Croatia", "winner": "null" },
-        { "match": 84, "team1": "Spain", "team2": "Austria", "winner": "null" },
-        { "match": 85, "team1": "Switzerland", "team2": "Algeria", "winner": "null" },
+        { "match": 83, "team1": "Portugal", "team2": "Croatia", "winner": "Portugal" },
+        { "match": 84, "team1": "Spain", "team2": "Austria", "winner": "Spain" },
+        { "match": 85, "team1": "Switzerland", "team2": "Algeria", "winner": "Switzerland" },
         { "match": 86, "team1": "Argentina", "team2": "Cape Verde", "winner": "null" },
         { "match": 87, "team1": "Colombia", "team2": "Ghana", "winner": "null" },
         { "match": 88, "team1": "Australia", "team2": "Egypt", "winner": "null" }
@@ -253,10 +253,10 @@ const RESULTS = {
         { "match": 90, "team1": "Paraguay", "team2": "France", "winner": "null" },
         { "match": 91, "team1": "Brazil", "team2": "Norway", "winner": "null" },
         { "match": 92, "team1": "Mexico", "team2": "England", "winner": "null" },
-        { "match": 93, "team1": "null", "team2": "null", "winner": "null" },
+        { "match": 93, "team1": "Portugal", "team2": "Spain", "winner": "null" },
         { "match": 94, "team1": "USA", "team2": "Belgium", "winner": "null" },
         { "match": 95, "team1": "null", "team2": "null", "winner": "null" },
-        { "match": 96, "team1": "null", "team2": "null", "winner": "null" }
+        { "match": 96, "team1": "Switzerland", "team2": "null", "winner": "null" }
       ],
       "quarterfinals": [
         { "match": 97, "team1": "null", "team2": "null", "winner": "null" },
