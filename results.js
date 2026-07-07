@@ -201,12 +201,12 @@ const RESULTS = {
       "Egypt"
     ],
     "round16": [
-      "null",
-      "null",
-      "null",
-      "null",
-      "null",
-      "null",
+      "Morocco",
+      "France",
+      "Norway",
+      "England",
+      "Spain",
+      "Belgium",
       "null",
       "null"
     ],
@@ -251,17 +251,17 @@ const RESULTS = {
       "round16": [
         { "match": 89, "team1": "Canada", "team2": "Morocco", "winner": "Morocco" },
         { "match": 90, "team1": "Paraguay", "team2": "France", "winner": "France" },
-        { "match": 91, "team1": "Brazil", "team2": "Norway", "winner": "null" },
-        { "match": 92, "team1": "Mexico", "team2": "England", "winner": "null" },
-        { "match": 93, "team1": "Portugal", "team2": "Spain", "winner": "null" },
-        { "match": 94, "team1": "USA", "team2": "Belgium", "winner": "null" },
+        { "match": 91, "team1": "Brazil", "team2": "Norway", "winner": "Norway" },
+        { "match": 92, "team1": "Mexico", "team2": "England", "winner": "England" },
+        { "match": 93, "team1": "Portugal", "team2": "Spain", "winner": "Spain" },
+        { "match": 94, "team1": "USA", "team2": "Belgium", "winner": "Belgium" },
         { "match": 95, "team1": "Argentina", "team2": "Egypt", "winner": "null" },
         { "match": 96, "team1": "Switzerland", "team2": "Colombia", "winner": "null" }
       ],
       "quarterfinals": [
-        { "match": 97, "team1": "null", "team2": "null", "winner": "null" },
-        { "match": 98, "team1": "null", "team2": "null", "winner": "null" },
-        { "match": 99, "team1": "null", "team2": "null", "winner": "null" },
+        { "match": 97, "team1": "Morocco", "team2": "France", "winner": "null" },
+        { "match": 98, "team1": "Spain", "team2": "Belgium", "winner": "null" },
+        { "match": 99, "team1": "Norway", "team2": "England", "winner": "null" },
         { "match": 100, "team1": "null", "team2": "null", "winner": "null" }
       ],
       "semifinals": [
