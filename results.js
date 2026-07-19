@@ -226,9 +226,9 @@ const RESULTS = {
       "Spain",
       "Argentina"
     ],
-    "thirdPlaceWinner": "null",
+    "thirdPlaceWinner": "England",
     "final": "null",
-    "thirdPlace": "null",
+    "thirdPlace": "England",
     "matches": {
       "round32": [
         { "match": 73, "team1": "South Africa", "team2": "Canada", "winner": "Canada" },
@@ -288,7 +288,7 @@ const RESULTS = {
   ],
   "champion": "null",
   "runnerUp": "null",
-  "thirdPlaceWinner": "null",
+  "thirdPlaceWinner": "England",
   "awards": {
     "goldenBoot": [
       "null",
