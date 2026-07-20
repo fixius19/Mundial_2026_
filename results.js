@@ -220,14 +220,14 @@ const RESULTS = {
       "Spain",
       "Argentina"
     ],
-    "champion": "null",
-    "runnerUp": "null",
+    "champion": "Spain",
+    "runnerUp": "Argentina",
     "finalists": [
       "Spain",
       "Argentina"
     ],
     "thirdPlaceWinner": "England",
-    "final": "null",
+    "final": "Spain",
     "thirdPlace": "England",
     "matches": {
       "round32": [
@@ -286,24 +286,24 @@ const RESULTS = {
     "Spain",
     "Argentina"
   ],
-  "champion": "null",
-  "runnerUp": "null",
+  "champion": "Spain",
+  "runnerUp": "Argentina",
   "thirdPlaceWinner": "England",
   "awards": {
     "goldenBoot": [
-      "null",
-      "nulle",
-      "null"
+      "MBAPPE",
+      "MESSI",
+      "BELLINGHAM"
     ],
     "goldenBall": [
-      "null",
-      "null",
-      "null"
+      "RODRIGO",
+      "MESSI",
+      "MBAPPE"
     ],
     "goldenGlove": [
-      "null",
-      "null",
-      "null"
+      "PO SIMÓN",
+      "PO MAIGNAN",
+      "PO MARTINEZ"
     ]
   }
 };
